@@ -95,7 +95,7 @@ func (a *APITracker) Add(containerID string, portMap nat.PortMap) error {
 					continue
 				}
 				if err := a.AddListener(a.context, net.IP(portBinding.HostIP), hostPort); err != nil{
-					log.Errorf("creating listener for %s and %s faled: %s", portBinding.HostIP, portBinding.HostPort, err)
+					log.Errorf("creating listener for %s and %s failed: %s", portBinding.HostIP, portBinding.HostPort, err)
 					continue
 				}
 			}

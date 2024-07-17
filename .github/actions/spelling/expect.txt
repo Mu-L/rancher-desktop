@@ -192,6 +192,7 @@ Dlg
 dlgbmp
 dlicense
 dmg
+DNAT
 dnat
 dnf
 dnsmasq
@@ -711,6 +712,7 @@ serveraddress
 servernum
 serviceaccount
 servicemonitor
+servicesapi
 servicewatcher
 setproxy
 SFC
